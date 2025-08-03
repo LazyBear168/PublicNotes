@@ -24,7 +24,6 @@ gh auth login
 git init
 git add .
 git commit -m "Initial commit"
-git push -u origin main
 gh repo create LazyBear168/PublicNotes --public --source=. --remote=origin --push
 ```
 

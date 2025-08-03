@@ -14,25 +14,24 @@
 2. Use VSCode extensions or pre-commit hooks to auto-generate TOC or tag lists if needed.
 3. Sync to GitHub:
 <details>
-<summary>Git Tips</summary>
+<summary>Git Initial</summary>
 
-- Use `git status` before committing  
-- Use `git checkout -b` to create a new branch  
-- Don’t forget `git pull --rebase`
+```bash
+# This is a Terminal code block
+winget install --id GitHub.cli -e
+gh auth login
+
+git init
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+gh repo create LazyBear168/PublicNotes --public --source=. --remote=origin --push
+```
 
 </details>
 
 
-```bash
-# This is a Terminal code block
-git init
 
-git remote add origin https://github.com/youruser/notes.git
-
-git commit -m "Initial"
-
-git push -u origin main
-```
 Get-Process
 
 👀 In VS Code preview or GitHub, this renders with:

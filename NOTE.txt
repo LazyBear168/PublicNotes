@@ -1,0 +1,7 @@
+winget install --id Git.Git -e --source winget
+
+(restart)
+
+git --version
+git clone https://github.com/LazyBear168/PublicNotes.git
+cd PublicNotes

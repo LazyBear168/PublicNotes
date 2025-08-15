@@ -6,6 +6,13 @@
 
 
 ## Set up
+0. Download vscode
+   1. winget install --id Git.Git -e --source winget
+   2. (restart)
+   3. git --version
+   4. git clone https://github.com/LazyBear168/PublicNotes.git
+   5. cd PublicNotes
+
 1. Use Extensions: 
    1. Markdown All in One
    2. Markdown Notes

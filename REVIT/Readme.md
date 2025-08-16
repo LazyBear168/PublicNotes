@@ -5,21 +5,31 @@
 2. Use vscode + git + github + Markdown.
 
 
-## Set up
-0. Download vscode
-   1. winget install --id Git.Git -e --source winget
-   2. (restart)
-   3. git --version
-   4. git clone https://github.com/LazyBear168/PublicNotes.git
-   5. cd PublicNotes
+## Set up for first time
 
-1. Use Extensions: 
+<details>
+<summary>Set up for first time</summary>
+1. Download vscode
+
+```bash
+# This is a Terminal code block
+winget install --id Git.Git -e --source winget
+```
+ (restart)
+```bash
+# This is a Terminal code block
+git --version
+git clone https://github.com/LazyBear168/PublicNotes.git
+cd PublicNotes
+```
+
+2. Use Extensions: 
    1. Markdown All in One
    2. Markdown Notes
    3. GitLens (Git history)
    4. Path Intellisense (for easy linking)
-2. Use VSCode extensions or pre-commit hooks to auto-generate TOC or tag lists if needed.
-3. Sync to GitHub:
+3. Use VSCode extensions or pre-commit hooks to auto-generate TOC or tag lists if needed.
+4. Sync to GitHub:
 <details>
 <summary>Git Initial</summary>
 
@@ -35,8 +45,12 @@ gh repo create LazyBear168/PublicNotes --public --source=. --remote=origin --pus
 ```
 
 </details>
+</details>
 
-
+## How to use
+<details>
+<summary> How to use </summary>
+</details>
 
 Get-Process
 
